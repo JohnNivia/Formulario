@@ -1,0 +1,77 @@
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    margin: 0;
+    padding: 20px 0;   
+}
+
+.formulario {
+    background-color: #2b2b2b;
+    padding: 30px;
+    border-radius: 10px;
+    border-top: 4px solid #00ff41;
+    width: 100%;
+    max-width: 450px;  
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #00ff41;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 0;    
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+input, select {
+    width: 100%;
+    padding: 9px;
+    margin-top: 5px;
+    background-color: #3b3b3b;
+    border: 1px solid #555;
+    border-radius: 4px;
+    color: white;
+    box-sizing: border-box;
+}
+
+.ConfimarDatos {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ConfimarDatos input {
+    width: auto;
+}
+
+button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 11px;
+    background-color: #00ff41;
+    color: #1a1a1a;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00cc33;
+}
+
+.required {
+    color: #ff4444;
+}
