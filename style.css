@@ -75,3 +75,6 @@ button:hover {
 .required {
     color: #ff4444;
 }
+.ConfimarDatos{
+    align-items: center;
+}
