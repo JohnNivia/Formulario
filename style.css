@@ -19,8 +19,17 @@ body {
     max-width: 450px;  
     box-sizing: border-box;
 }
+header{
+    background-color: #2b2b2b;
+    padding: 30px;
+    border-radius: 10px;
+    border-top: 4px solid #00ff41;
+    width: 100%;
+    max-width: 450px;  
+    box-sizing: border-box;
+}
+h2, p{
 
-header {
     color: #00ff41;
     text-align: center;
     font-size: 24px;
