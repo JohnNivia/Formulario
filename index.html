@@ -33,7 +33,7 @@
                 <select name="TipoDocumento" id="TipoDocumento">
                     <option value="" disabled selected>Tipo documento</option>
                     <option value="TI">Tarjeta Identidad</option>
-                    <option value="CC">Cedula Ciudadania</option>
+                    <option value="CC"select>Cedula Ciudadania</option>
                     <option value="CE">Cedula Extranjeria</option>
                     <option value="PPT">Permiso de Proteccion Personal</option>
                     <option value="Pasaporte">Pasaporte</option>
@@ -59,12 +59,36 @@
                 <input type="email" id="Correo" name="email" placeholder="ej. ejemplo.gmail.com" required>
             </div>    
             <div class="paisDomicilio">
-                <label for="PaisDomicilio">Pais de domicilio<span class="required">*</span></label>
-                <input type="text" id="PaisDomicilio" name="PaisDomicilio" placeholder="ej. Colombia" required>
+                <label for="PaisDomicilio">Pais de domicilio<span class ="required">*</span></label>
+                <select name="PaisDomicilio" id="paisDomicilio">
+                    <option value="NA"disabled selected>Ingrese su Pais</option>
+                    <option value="Mex">Mexico</option>
+                    <option value="Col"selected>Colombia</option>
+                    <option value="Es">España</option>
+                    <option value="EEUU">Estados unidos</option>
+                    <option value="Can">Canada</option>
+                </select>
             </div>    
             <div class="ciudadDomicilio">
                 <label for="CiudadDomicilio">Ciudad de domicilio<span class="required">*</span></label>
-                <input type="text" id="CiudadDomicilio" name="CiudadDomicilio" placeholder="ej. Bogota" required>
+                <select name="CiudadDomicilio" id="CiudadDomicilio">
+                    <option value="NA"disabled selected>Ingrese su pais</option>
+                    <option value="CM">Ciudad de mexico</option>
+                    <option value="Gua">Guadalajara</option>
+                    <option value="Mont">Monterrey</option>
+                    <option value="Bog"select>Bogota</option>
+                    <option value="Med">Medellin</option>
+                    <option value="Bar">Barranquilla</option>
+                    <option value="Mad">Madrid</option>
+                    <option value="Bar">Barcelona</option>
+                    <option value="Mal">Málaga</option>
+                    <option value="Was">Washinton</option>
+                    <option value="New">New york</option>
+                    <option value="Ang">Angeles</option>
+                    <option value="Ott">Ottawa</option>
+                    <option value="Mont">Montreal</option>
+                    <option value="Vanc">Vancouver</option>
+                </select>
             </div>    
         </div>
 
